@@ -10,4 +10,4 @@
 *another constructor and two prototype functions are used to accept the data and print it out as required*
 
 
-![image](files/Users/jzhang/Desktop/Isolated.png)
+![image](./img/class-01.PNG)
