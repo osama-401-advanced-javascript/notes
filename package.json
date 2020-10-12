@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,11 @@
   },
   "homepage": "https://github.com/osama-401-advanced-javascript/notes#readme",
   "dependencies": {
+    "@types/jest": "^26.0.14",
     "minimist": "^1.2.5"
   },
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.11.0",
+    "jest": "^26.5.3"
   }
 }
