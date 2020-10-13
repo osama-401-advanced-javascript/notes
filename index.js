@@ -17,11 +17,9 @@ mongoose
     });
 
 const arg = new Input();
-// console.log(arg, 'hey im the arg');
-// console.log(Notes);
 
 const note = new Notes(arg)
 
 note.execute(arg)
 
-// console.log(arg);
+// mongoose.disconnect();
