@@ -46,3 +46,29 @@ node . -add 'Save some text'
 
 
 ![image](./img/class-03.PNG)
+
+## class-04
+**Notesy is a Command Line Interface package that gives the ability to take notes.**
+
+### Commands for Adding Text
+- We start by typing node .
+- To save text one of two commands can be used.
+```
+-create
+```
+- Next we can type our text and hit enter to save.
+```
+The above step combined will look something like this.
+node . -add 'Save some text'
+```
+-new shcema has been added to connect all the mangoose methods to new functions
+### Dependencies
+```
+* npm init
+* npm install supergoose
+* npm i-Djest
+```
+
+
+
+![image](./img/class-04.PNG)
