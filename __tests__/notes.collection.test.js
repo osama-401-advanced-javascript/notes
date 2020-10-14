@@ -12,6 +12,18 @@ describe('note Model', () => {
             });
         });
     });
+    it('can get() a note item', async () => {
+        const obj = { text: 'test note', category: 'haveFun' };
+        const expected = { text: 'test note', category: 'haveFun' };
+        const record = await note.create(obj);
+        const noteItem = await note.get(record._id);
+        console.log('noteitem', noteItem);
+        console.log('record', record);
+        Object.keys(expected).forEach((key) => {
+            console.log(key);
+            expect(noteItem[0][key]).toEqual(record[key]);
+        });
+    });
     // it('can get() a note item', async () => {
     //     const obj = { text: 'test note', category: 'haveFun' };
     //     const expected = { text: 'test note', category: 'haveFun' };
@@ -21,4 +33,5 @@ describe('note Model', () => {
     //         expect(noteItem[key]).toEqual(expected[key]);
     //     });
     // });
+
 });
